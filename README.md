@@ -28,6 +28,12 @@ This interactive project compares deep learning models trained on the FashionMNI
 
 ---
 
+## 📁 Data
+
+The data was take from an open dataset, called FashionMINST. here is the like for the repo https://github.com/zalandoresearch/fashion-mnist
+
+---
+
 ## 📁 Project Structure
 
 ```plaintext
