@@ -2,7 +2,7 @@
 
 This interactive project compares deep learning models trained on the FashionMNIST dataset using a clean, modern Streamlit dashboard. It highlights key model insights such as prediction confidence, test accuracy, and misclassified examples — great for showcasing deep learning understanding and model evaluation skills.
 
-🔗 **Live Demo**: [Your Streamlit Link Here](https://fashionmnist-dashboard-adikhxm9kazjbmpwxdjhgt.streamlit.app/)
+🔗 **Live Demo**: [fashion.dhruvkpatel.dev](https://fashion.dhruvkpatel.dev)
 
 ---
 
