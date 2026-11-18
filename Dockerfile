@@ -8,9 +8,9 @@ RUN useradd -m app
 WORKDIR /app
 
 # CPU-only PyTorch for Arm, then the rest of the requirements
-COPY requirements.txt .
-RUN uv pip install --system --no-cache --index-url https://download.pytorch.org/whl/cpu torch torchvision \
- && uv pip install --system --no-cache -r requirements.txt
+COPY requirements.lock .
+RUN uv pip install --system --no-cache --index-url https://download.pytorch.org/whl/cpu torch==2.15.0+cpu torchvision==0.29.2+cpu \
+ && uv pip install --system --no-cache -r requirements.lock
 
 COPY --chown=app:app . .
 USER app
